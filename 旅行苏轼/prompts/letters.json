@@ -1,0 +1,47 @@
+
+[
+    {
+        "id":"letter_001",
+        "title":"眉山初见",
+        "content":"某启：\n{player_name}贤友，见字如晤。\n前些日你来眉山家中拜访，余二人秉烛夜游，抵足而眠，历历在目。\n吾不日将前往益州，如君不嫌吾聒噪，必将益州风物一一道来。盼回信。",
+        "sender":"苏轼",
+        "unlock_conditions":{
+            "min_days": 1,
+            "friend_level":5,
+            "required_visited":["眉州"],
+            "required_item": null
+        },
+        "weight": 10
+    },
+    {
+        "id":"letter_002",
+        "title":"益州风物",
+        "content":"某启：\n{player_name}贤友，见字如晤。\n家父同我和子由已达益州，此处布帛织锦手艺极佳，余亦购入一方素帕，此番随信赠汝，待暑至可有大用。",
+        "sender":"苏轼",
+        "unlock_conditions":{
+            "min_days": 1,
+            "friend_level":10,
+            "required_visited":["眉州"],
+            "required_item": null
+        },
+        "gift":{
+            "item_id":"handkerchief_shu",
+            "name":"蜀绣手帕",
+            "description":"一块绣着绿竹的素帕，礼轻情意重。"
+        },
+        "weight": 10
+    },
+    {
+        "id":"letter_009",
+        "title":"怀念小妹",
+        "content":"某启：\n{player_name}。\n昨夜忽梦少年时与舍妹同习琴之事...\n舍妹如今已逝去三年，余恨程氏之暴虐，亦恨己之不察，以至此祸。",
+        "sender":"苏轼",
+        "unlock_conditions":{
+            "min_days": 1,
+            "friend_level":70,
+            "required_visited":["眉州"],
+            "required_item": null
+        },
+        "weight": 15
+    }
+]
