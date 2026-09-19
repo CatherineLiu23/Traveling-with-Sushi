@@ -1,7 +1,7 @@
 import os
 
 #api
-DEEPSEEK_API_KEY = "sk-e852613ab001446b8f4156008646bcbf"
+DEEPSEEK_API_KEY = "enter your api here"
 API_URL = "https://api.deepseek.com/chat/completions"
 #图片
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
